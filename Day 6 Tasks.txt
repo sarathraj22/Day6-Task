@@ -1,0 +1,161 @@
+// 1
+
+alert("I'm invoked!");
+
+// 2
+
+alert("I'm JavaScript!");
+alert('Hello');
+alert(`Wor
+ ld`)
+alert(3 +
+    1
+    + 2);
+
+// 3
+
+let admin = 9, fname = 10.5;
+fname = "Guvi";
+lname = "geek"
+admin = fname + " " + lname;
+alert(admin);
+
+// 4
+
+let fname = 10.5;
+fname = "Guvi";
+lname = "geek"
+let name = fname + lname;
+alert(`hello ${name}`);
+
+// 5
+
+let a = prompt("First number?");
+let b = prompt("Second number?");
+alert(parseInt(a) + parseInt(b));
+
+// 6
+
+var a = 2 < 12;
+if (a) {
+    console.log("Code is Blasted")
+}
+else {
+    console.log("Diffused")
+}
+
+// 7
+
+let a = parseInt(prompt("Enter a number?"));
+if (a) {
+    console.log('OMG it works for any number inc 0');
+}
+else {
+    console.log("Success");
+}
+
+// 8
+
+let value = parseInt(prompt('How many runs you scored in this ball'));
+if (value === 4) {
+    console.log("You hit a Four");
+} else if (value === 6) {
+    console.log("You hit a Six");
+} else {
+    console.log("I couldn't figure out");
+}
+
+// 9
+
+let login = 'Employee';
+let message = (login == 'Employee') ? 'Employee' :
+    (login == 'Director') ? 'Greetings' :
+        (login == '') ? 'No login' :
+            '';
+console.log(message);
+
+// 10
+
+let message;
+if (null || 2 || undefined) {
+    message = "welcome boss";
+}
+else {
+    message = "Go away";
+}
+console.log(message);
+
+// 11
+
+let message;
+let lock = null;
+//Dont change any code below this 
+if (null || lock || undefined) {
+    message = "Go away";
+}
+else {
+    message = "welcome";
+}
+console.log(message);
+
+// 12
+
+let message;
+let lock = null;
+//Dont change any code below this
+if (lock && " " || undefined) {
+    message = "Go away";
+}
+else {
+    message = "welcome";
+}
+console.log(message);
+
+// 13
+
+var numsArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var new_string = "";
+
+for (var i = 0; i < 11; i++) {
+    new_string += numsArr[i]
+}
+console.log(new_string);
+
+// 14
+
+var numsArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var new_string = new String(numsArr[0]);
+
+for (var i = 1; i < 11; i++) {
+    new_string += "," + numsArr[i]
+}
+console.log(new_string);
+
+// 15
+
+var numsArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var new_string = new String(numsArr[10]);
+
+for (var i = 9; i >= 0; i--) {
+    new_string += " " + numsArr[i]
+}
+console.log(new_string);
+
+// 16
+
+var numsArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+for (var i = 0; i <= 10; i++) {
+    if (numsArr[i] % 2 == 0) {
+        numsArr[i] = "even"
+    }
+}
+console.log(numsArr);
+
+// 17
+
+var numsArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var sum = 0;
+for (var i = 0; i <= 10; i++) {
+    sum += numsArr[i]
+}
+console.log(sum);
